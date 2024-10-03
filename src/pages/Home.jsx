@@ -1,6 +1,6 @@
 import React from 'react'
 import Earth from '../components/Earth'
-import '../styles/home.css'
+import '../styles/Home.css'
 export default function Home() {
 
 
