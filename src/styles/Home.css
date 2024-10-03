@@ -69,7 +69,6 @@ nav {
     position: absolute;
     overflow: hidden;
     z-index: 2;
-    /* Border Radius */
     border-radius: 12px;
     filter: blur(3px);
   }
@@ -102,10 +101,7 @@ nav {
     display: none;
   }
   
-  #main:hover > #pink-mask {
-    //animation: rotate 4s linear infinite;
-    opacity: 0;
-  }
+
   
   .white {
     max-height: 63px;
@@ -135,8 +131,7 @@ nav {
       #dfa2da,
       rgba(0, 0, 0, 0) 58%
     );
-    //  animation: rotate 4s linear infinite;
-    transition: all 2s;
+
   }
   .border {
     max-height: 59px;
@@ -165,8 +160,7 @@ nav {
       #cf30aa 60%,
       #1c191c 64%
     );
-    // animation: rotate 4s 0.1s linear infinite;
-    transition: all 2s;
+
   }
   .darkBorderBg {
     max-height: 65px;
@@ -265,9 +259,7 @@ nav {
       #cf30aa 60%,
       #000 87%
     );
-    /* change speed here */
-    //animation: rotate 4s 0.3s linear infinite;
-    transition: all 2s;
+    
   }
   
   @keyframes rotate {
